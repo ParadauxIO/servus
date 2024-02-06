@@ -9,11 +9,12 @@ import "./styles/fonts.scss";
 import "./styles/reset.scss";
 import "./styles/utilities.scss";
 import './styles/global.scss';
+import Index from "./pages/Index";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Hello world!</div>,
+    element: <Index/>,
   },
 ]);
 
