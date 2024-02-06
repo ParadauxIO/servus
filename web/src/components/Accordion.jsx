@@ -15,8 +15,8 @@ export default function Accordion({ title, Subtitle, children }) {
         <div className="accordion" onClick={() => setIsShown(prev => !prev)}>
             <div className="accordion-title">
                 <h2>{title}</h2>
-                <div>
-                    {Subtitle && <Subtitle/>}
+                <div className="title-right">
+                    {Subtitle && Subtitle}
                     <h2>{isShown ? "-" : "+"}</h2>
                 </div>
                 

@@ -19,3 +19,13 @@
 .hidden {
     display: none;
 }
+
+.title-right {
+    display: flex;
+    align-items: center;
+
+    & > * {
+        // Styles for the direct children
+        padding-right: 1rem;
+    }
+}
