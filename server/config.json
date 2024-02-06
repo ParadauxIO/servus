@@ -1,0 +1,35 @@
+{
+    "Scéalaí": [
+        {
+            "title": "API",
+            "connection-method": "REST",
+            "connection-value": "https://scealai.abair.ie/api/version",
+            "polling-interval": "600"
+        },
+        {
+            "title": "DB",
+            "connection-method": "mongo",
+            "connection-value": "mongodb://example:example/example",
+            "connection-query": ""
+        },
+        {
+            "title": "Website",
+            "connection-method": "REST",
+            "connection-value": "https://scealai.abair.ie"
+        }
+    ],
+    "API": [
+        {
+            "title": "API",
+            "connection-method": "REST",
+            "connection-value": "https://api.abair.ie/v3/meta",
+            "polling-interval": "600"
+        },
+        {
+            "title": "Redis",
+            "connection-method": "redis",
+            "connection-host": "localhost:5959",
+            "connection-query": "INFO keyspace"
+        }
+    ]
+}
