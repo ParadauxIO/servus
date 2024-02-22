@@ -18,7 +18,13 @@
             "connection-value": "https://scealai.abair.ie"
         }
     ],
-    "API": [
+    "abair.ie": [
+        {
+            "title": "Website",
+            "connection-method": "REST",
+            "connection-value": "https://abair.ie",
+            "polling-interval": "600"
+        },
         {
             "title": "API",
             "connection-method": "REST",
@@ -30,6 +36,25 @@
             "connection-method": "redis",
             "connection-host": "localhost:5959",
             "connection-query": "INFO keyspace"
+        }
+    ],
+    "Mol an Óige": [
+        {
+            "title": "Web App"
+        },
+        {
+            "title": "Supabase"
+        }
+    ],
+    "Geabaire": [
+        {
+            "title": "Web App"
+        },
+        {
+            "title": "API"
+        },
+        {
+            "title": "Supabase"
         }
     ]
 }
